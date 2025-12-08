@@ -1,0 +1,3 @@
+# Don't index/track docker env files
+# Since they usually contain spicy configs
+.env
