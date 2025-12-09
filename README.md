@@ -1,6 +1,11 @@
 # Homelab
 Collection of services for my homelab
 
+## Other Information
+- Workshop repo
+- Profile README
+- GitHub.io site
+
 ## Services
 ### Photos
 >Immich
