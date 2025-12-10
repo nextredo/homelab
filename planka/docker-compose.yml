@@ -2,6 +2,8 @@ services:
   planka:
     image: ghcr.io/plankanban/planka:2.0.0-rc.4
     restart: on-failure
+    env_file:
+      - .env
     volumes:
       - favicons:/app/public/favicons
       - user-avatars:/app/public/user-avatars
@@ -24,7 +26,7 @@ services:
       # secrets:
       #   - database_password
 
-      - SECRET_KEY=notsecretkey
+      - SECRET_KEY=${SECRET_KEY}
       # Optionally store in secrets - then SECRET_KEY should not be set
       # - SECRET_KEY__FILE=/run/secrets/secret_key
 
