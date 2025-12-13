@@ -52,15 +52,34 @@
   - Could be good for docs though
 
 ### Tempting FOSS options
-- KanBoard
-  - "Maintenance mode"
-  - Stable, fine I would assume
-  - Has extensions to beautify it
-    - [Greenwing](https://github.com/p0lym0rphik/Greenwing)
+#### KanBoard
+- App in "Maintenance mode"
+- Documentation isn't super well organised imho
+- Stable, works fine as far as I can see
+- Seems much more project management esque than I assumed it would be
+- UI is highly utilitarian
+  - Difficult to use in mobile mode
+- Has extensions to beautify it
+  - [Greenwing](https://github.com/p0lym0rphik/Greenwing)
+
+##### Issues
+- Time didn't seem to work fully properly
+  - I think it needs to use my local time not UTC
+- Setting things red when over task limits doesn't work all the time :(
+
+##### Features
+- `iCal` feed is a cool idea
+  - Enables things to appear in Google Calendar I guess
+- Task limits
+- Swimlanes
+- Plugin support
+- Categories (1 per task)
+- Tags (many per task)
+- Timers on subtasks
 
 ### Very tempting FOSS options
-- Planka
-- FocalBoard
+#### Planka
+#### FocalBoard
 
 ### Chosen FOSS option
 -
