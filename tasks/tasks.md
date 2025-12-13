@@ -53,6 +53,7 @@
 
 ### Tempting FOSS options
 #### KanBoard
+##### Notes
 - App in "Maintenance mode"
 - Documentation isn't super well organised imho
 - Stable, works fine as far as I can see
@@ -66,6 +67,7 @@
 - Time didn't seem to work fully properly
   - I think it needs to use my local time not UTC
 - Setting things red when over task limits doesn't work all the time :(
+- Interface is a little rough on mobile
 
 ##### Features
 - `iCal` feed is a cool idea
@@ -77,9 +79,55 @@
 - Tags (many per task)
 - Timers on subtasks
 
+##### Decision
+- Nah, not for me
+- Shoutout to the devs tho
+
 ### Very tempting FOSS options
 #### Planka
+##### Notes
+- UI
+  - Snappy, fast as hell
+  - Works great on mobile
+
+##### Issues
+- UI loading takes forever to load when you first load the webpage
+  - Loads very *slowly* when opening in Firefox
+  - Loads very *quickly* when opening in Chrome
+- Filtering is lackluster in main board screens
+  - Only for labels, users
+- Can't add new boards to projects occasionally
+  - Make a project
+  - Add a board to it
+  - Can add multiple boards no worries
+  - Close the tab or go back to the projects screen
+  - Open the project again
+  - Can't add a new board anymore
+- Not Copyleft licensed
+
+##### Features
+- Trello import
+- Actively maintained
+- Simple, appears robust
+- Great UI/UX
+
+##### Missing Features
+- No export functionality
+- Can't limit number of tasks in progress
+
+##### Decision
+- Let me cook on this 🔥
+
 #### FocalBoard
+##### Notes
+-
+
+##### Issues
+-
+
+##### Features
+-
+
 
 ### Chosen FOSS option
 -
