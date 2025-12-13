@@ -43,13 +43,14 @@
   - Small, unmaintained
 - Taskosaur
   - *Very* AI driven, seems to push pricing
-- Nextcloud Deck
-  - Nextcloud is a pain to setup ngl
 - WeKan
   - UI isn't great
 - Trilium
   - Not primarily a Kanban app
   - Could be good for docs though
+- Gitea Boards
+  - I don't need a whole git server just to have a kanban
+  - Though if I need a git server anyway...
 
 ### Tempting FOSS options
 #### KanBoard
@@ -84,6 +85,56 @@
 - Shoutout to the devs tho
 
 ### Very tempting FOSS options
+#### Nextcloud Deck
+##### Notes
+- Nextcloud is a pain to setup ngl
+- Clean UI tho
+- Huge userbase, number of stars
+- Works fine on mobile
+- Different workflow from what I'm used to
+  - Tasks in different columns (lists)
+  - Move taks around
+  - Separate button to mark as done
+  - Then archive xd
+  - Thoughts
+    - I kinda like it though
+    - But makes "equivalent done" statuses like expired, failed harder to show
+      - Just tag it ig
+
+##### Issues
+- If I'm going to use nextcloud;
+  - Optimise the hell out of it
+  - Make backups of relevant stuff (db, files)
+  - Update things
+    - Dockerfile & docker compose
+      - Clean, refactor
+      - Get new features
+    - Nextcloud (running Hub 9 v30, latest is Hub 10, v32)
+    - MariaDB
+    - Nginx
+  - Update my cert
+- Doesn't auto update between multiple browers with the same page open
+
+##### Features
+- Nextcloud kinda does everything
+  - Can be the photos backup, doc storage, and tasks app
+- Integrations
+  - Notes app
+  - Tasks app
+- Mobile app
+- Card archiving
+- Added recently
+  - Cloning cards
+  - Cloning boards
+  - Link previs for cards
+  - Card cover images
+
+##### Missing Features
+- No export functionality
+- Can't limit number of tasks in progress
+- No priority field
+- No emoji icon / picture cover
+
 #### Planka
 ##### Notes
 - UI
@@ -110,28 +161,53 @@
 - Actively maintained
 - Simple, appears robust
 - Great UI/UX
+- "Can't connect to server" message when it goes offline
+  - Autosync afterwards too supposedly
+- Pictures as cover art for tasks
+- Dedicated archive section for tasks is cool
 
 ##### Missing Features
 - No export functionality
 - Can't limit number of tasks in progress
 
-##### Decision
-- Let me cook on this 🔥
-
 #### FocalBoard
 ##### Notes
--
+- Very Notion-looking
+- UI clean, good
 
 ##### Issues
--
+- If I'm to actually use it
+  - Setup a NGINX to make it HTTPS
+  - Setup a proper docker compose
+    - So it doesn't delete all data on `docker compose down`
+- **Unmaintained :(**
+  - Developed by Mattermost
+  - They pivoted to focusing on it as a plugin for their Slack clone
+- "Mobile web support is currently in early beta"
+  - Placement is a little messed up on mobile to be fair
+- Due dates don't show up properly in the list (status) metric section
 
 ##### Features
--
+- Discord syntax for writing emojis `:see-no-evil:`
+- I like task emoji icons
+- Both instances of it (open at the same time) kept in sync
+- Has board exports :)
+  - But in a weird format
+  - Strange JSON that's not real valid normal JSON
+- Metric to display at the top of each list
+- Board templates
 
+##### Missing Features
+- Can't view uploaded pics on the site itself
+- Can't limit number of tasks in progress
 
+--------------------------------------------------------------------------------
 ### Chosen FOSS option
--
-
+- Cooked on this for days man 🔥
+- ***Nextcloud Deck***
+- Integrates with all the other services I need
+- Seems to be pretty dang good
+- Maintained etc.
 
 <!-- Links -->
 [aw-sh-t-mgmt]: https://awesome-selfhosted.net/tags/task-management--to-do-lists.html
