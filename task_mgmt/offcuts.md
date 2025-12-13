@@ -1,0 +1,86 @@
+### Ruled out
+- TaskBoard
+  - Too basic
+  - Unmaintained
+- Taiga
+  - Full project management/Jira thing seems like overkill
+  - [taiga](https://taiga.io/)
+  - [kanban](https://community.taiga.io/t/the-5-min-kanban-module-overview/122)
+  - Bit heavy (too project management-y) for personal life
+- AppFlowy
+  - Has a lotta stars on GitHub (>67k)
+  - Markets itself as "The Open Source Alternative To Notion"
+  - Written in Dart and Rust
+  - AI stuff
+    - I hope you can disable it / self host a model instead
+  - Has mobile app
+  - Is becoming "open core" instead of "open source"
+  - Has some proper anti-features innit
+- OpenProject
+  - Probably a bit heavy innit
+- Plane.so
+  - Pricing stuff makes me worried smhh
+- Leantime
+  - Not even looking into this bro
+  - Project management shii
+- Tracks
+  - GPLv2
+  - Implements the "Getting Things Done" methodology from some guy called David Allen
+  - UI pretty dated
+  - Less contributors, seems to not get as much love as other projects
+- Donetick
+  - More of a fledgling thing
+  - Mentions pricing and stuff on the subreddit, but no reference to it on the website
+  - Doesn't seem kanban-esque, more like a juiced up Microsoft To Do
+  - Very snappy, visually appealling UI
+- Vikunja
+  - Bad, user account creation paid
+- Brisqi
+  - Pricing cringe
+- TaskCafe
+  - Unmaintained, looks good
+- Nimbo
+  - Small as hell (64 stars), unmaintained
+- Taskosaur
+  - 151 stars
+  - *Very* AI driven
+- TickTick
+  - Not open source
+- Nextcloud (deck extension)
+  - This was a pain to setup
+  - Seems fragile and annoying? Maybe I'm just a hater
+  - Could be worth retrying using another config or smth
+  - Seems pretty dang basic
+- WeKan
+  - Saving the best(?) until last(?)
+  - Dunno about this one
+  - UI clunky, not great by the looks of it
+- KanBoard
+  - Has docker despite what awesome-selfhosted says
+  - Simplistic, probably means no bs, stable
+  - Application has reached "maintenance mode"
+  - May be a little toooo simplistic
+  - Can use extensions like Greenwing to make it pretty
+- Trilium
+  - No mention of pricing or payment anywhere
+  - AGPLv3
+  - Just not really designed for it (task mgmt, kanban) afaik
+  - [What it can do](https://docs.triliumnotes.org/user-guide/)
+  - [It has kanbans](https://docs.triliumnotes.org/user-guide/collections/kanban-board)
+
+
+### Other
+- Planka
+  - UI is snappy as hell, visually appealing
+    - This was based on V1 - it's at V2 now
+  - Not overly complex
+  - German, so maybe good GDPR protections?
+  - Has its own license ffs
+    - Which mentions pro/enterprise bs
+- FocalBoard
+  - GitHub page says it's unmaintained
+  - But it looks kinda nice
+  - I think it's been made part of "mattermost" - a SW development toolkit thang (looks exactly like Slack)
+  - Needs a HTTPS:// wrapper (nginx setup like I have for my nextcloud instance)
+  - Not sure how the other apps do https without an IP, could be useful to steal and apply to my next cloud
+- Gitea boards
