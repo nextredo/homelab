@@ -1,0 +1,3 @@
+[submodule "nextcloud/all-in-one"]
+	path = nextcloud/all-in-one
+	url = git@github.com:nextcloud/all-in-one.git

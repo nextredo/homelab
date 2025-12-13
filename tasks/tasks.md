@@ -208,6 +208,8 @@
 - Integrates with all the other services I need
 - Seems to be pretty dang good
 - Maintained etc.
+- Ya know, an interestingly high amount of these projects are by Germans
+- Wonder what the deal is there
 
 <!-- Links -->
 [aw-sh-t-mgmt]: https://awesome-selfhosted.net/tags/task-management--to-do-lists.html
