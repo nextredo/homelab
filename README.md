@@ -14,6 +14,7 @@ Collection of services for my homelab
 - [Photos](./photos/photos.md)
 - [Task Management](./tasks/tasks.md)
 - [Note-taking](./notes/notes.md)
+- Finance
 - LLMs
 - Volunteer computing
 
@@ -27,4 +28,7 @@ TODO
 Ideas:
 Volunteer computing
 - BOINC
+
+Finance
+- Actual Budget
 ---------------------------------------------------------------------------- -->

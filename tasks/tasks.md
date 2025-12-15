@@ -119,9 +119,9 @@
 - Nextcloud kinda does everything
   - Can be the photos backup, doc storage, and tasks app
 - Integrations
-  - Notes app
-  - Tasks app
-- Mobile app
+  - Notes app (can link to notes)
+  - Tasks app (provides alternative view on stuff in Deck)
+- Mobile apps
 - Card archiving
 - Added recently
   - Cloning cards
@@ -207,7 +207,7 @@
 - ***Nextcloud Deck***
 - Integrates with all the other services I need
 - Seems to be pretty dang good
-- Maintained etc.
+- Maintained, fully AGPL-3.0 <3
 - Ya know, an interestingly high amount of these projects are by Germans
 - Wonder what the deal is there
 
